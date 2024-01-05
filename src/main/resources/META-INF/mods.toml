@@ -1,30 +1,29 @@
-
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="${loader_version_range}"
 license="MIT License"
 issueTrackerURL="https://github.com/drago-suzuki58/SimpleOreExpansion"
 [[mods]]
 modId="simpleoreexpansion"
 version="1.20.4-0.1.0"
 displayName="Simple Ore Expansion"
-#updateJSONURL="https://change.me.example.invalid/updates.json"
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
-#modUrl="" Future, Enter the URL of CurseForge
-logoFile="SimpleOreExpansion_logo.png"
-#credits=""
+# updateJSONURL="https://change.me.example.invalid/updates.json"
+# displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+# modUrl="" Future, Enter the URL of CurseForge
+# logoFile="SimpleOreExpansion_logo.png"
+# credits=""
 authors="drago_suzuki58"
 description='''${mod_description}'''
 
-[[dependencies.neoforge]]
-modId="neoforge"
-type="required"
-versionRange="${neo_version_range}"
-ordering="NONE"
-side="BOTH"
-
-[[dependencies.minecraft]]
-modId="minecraft"
-type="required"
-versionRange="${minecraft_version_range}"
-ordering="NONE"
-side="BOTH"
+# [[dependencies.simpleoreexpansion]]
+# modId="neoforge"
+# type="required"
+# versionRange="${neo_version_range}"
+# ordering="NONE"
+# side="BOTH"
+# 
+# [[dependencies.simpleoreexpansion]]
+# modId="minecraft"
+# type="required"
+# versionRange="${minecraft_version_range}"
+# ordering="NONE"
+# side="BOTH"
