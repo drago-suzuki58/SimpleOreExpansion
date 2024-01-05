@@ -2,8 +2,6 @@ package com.dorasuzublog.simpleoreexpansion;
 
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.neoforge.registries.RegisterEvent;
-import net.neoforged.neoforge.registries.RegisterEvent.RegisterHelper;
 
 @Mod(SimpleOreExpansion.MODID)
 public class SimpleOreExpansion {

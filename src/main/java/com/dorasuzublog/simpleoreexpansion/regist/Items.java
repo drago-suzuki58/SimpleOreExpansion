@@ -6,6 +6,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
 public class Items {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(NeoForgeRegistries.ITEMS, "simpleoreexpansion");
+    // public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(NeoForgeRegistries.ITEMS, "simpleoreexpansion");
     
 }
