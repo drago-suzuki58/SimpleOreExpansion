@@ -5,7 +5,7 @@ license="MIT License"
 issueTrackerURL="https://github.com/drago-suzuki58/SimpleOreExpansion"
 [[mods]]
 modId="simpleoreexpansion"
-version="1.20.2-0.1.0"
+version="1.20.4-0.1.0"
 displayName="Simple Ore Expansion"
 #updateJSONURL="https://change.me.example.invalid/updates.json"
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
