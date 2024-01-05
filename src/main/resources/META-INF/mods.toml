@@ -15,14 +15,14 @@ logoFile="SimpleOreExpansion_logo.png"
 authors="drago_suzuki58"
 description='''${mod_description}'''
 
-[[dependencies.${mod_id}]]
+[[dependencies.neoforge]]
 modId="neoforge"
 type="required"
 versionRange="${neo_version_range}"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies.minecraft]]
 modId="minecraft"
 type="required"
 versionRange="${minecraft_version_range}"
