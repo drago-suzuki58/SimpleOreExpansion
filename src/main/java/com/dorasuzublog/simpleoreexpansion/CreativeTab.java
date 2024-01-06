@@ -21,6 +21,7 @@ public class CreativeTab {
         .displayItems((params, output) -> {
             output.accept(Items.EXAMPLE_ITEM.get());
             output.accept(Blocks.EXAMPLE_BLOCK.get());
+            
         })
         .build()
     );
