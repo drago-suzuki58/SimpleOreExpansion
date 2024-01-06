@@ -1,6 +1,7 @@
 package com.dorasuzublog.simpleoreexpansion;
 
 import com.dorasuzublog.simpleoreexpansion.regist.Items;
+import com.dorasuzublog.simpleoreexpansion.regist.Blocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,7 +20,7 @@ public class CreativeTab {
         // アイテム一覧
         .displayItems((params, output) -> {
             output.accept(Items.EXAMPLE_ITEM.get());
-            
+            output.accept(Blocks.EXAMPLE_BLOCK.get());
         })
         .build()
     );
