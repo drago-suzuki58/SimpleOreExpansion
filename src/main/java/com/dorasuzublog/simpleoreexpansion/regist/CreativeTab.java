@@ -1,7 +1,5 @@
-package com.dorasuzublog.simpleoreexpansion;
+package com.dorasuzublog.simpleoreexpansion.regist;
 
-import com.dorasuzublog.simpleoreexpansion.regist.Blocks;
-import com.dorasuzublog.simpleoreexpansion.regist.Items;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
