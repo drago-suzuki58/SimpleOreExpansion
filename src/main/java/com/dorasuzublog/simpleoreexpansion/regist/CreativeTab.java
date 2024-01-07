@@ -17,13 +17,13 @@ public class CreativeTab {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ORE_TAB = CREATIVE_MODE_TABS.register("example_tab",()->CreativeModeTab.builder()
         .title(Component.translatable("itemGroup.ExpansionOres"))
-        .icon(() -> new ItemStack(ItemsRegist.EXAMPLE_ITEM.get()))
+        .icon(() -> new ItemStack(ItemsRegist.ALUMINUM_INGOT.get()))
 
         // アイテム一覧
         .displayItems((params, output) -> {
-            output.accept(ItemsRegist.EXAMPLE_ITEM.get());
-            output.accept(BlocksRegist.EXAMPLE_BLOCK.get());
-            
+            output.accept(ItemsRegist.ALUMINUM_INGOT.get());
+            output.accept(ItemsRegist.ALUMINUM_NUGGET.get());
+            output.accept(BlocksRegist.ALUMINUM_BLOCK.get());
         })
         .build()
     );
