@@ -1,8 +1,8 @@
 package com.dorasuzublog.simpleoreexpansion;
 
 import com.dorasuzublog.simpleoreexpansion.regist.CreativeTab;
-import com.dorasuzublog.simpleoreexpansion.regist.Blocks.Blocks;
-import com.dorasuzublog.simpleoreexpansion.regist.Items.Items;
+import com.dorasuzublog.simpleoreexpansion.regist.Blocks.BlocksRegist;
+import com.dorasuzublog.simpleoreexpansion.regist.Items.ItemsRegist;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -17,7 +17,7 @@ public class SimpleOreExpansion {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         CreativeTab.CREATIVE_MODE_TABS.register(bus);
-        Items.ITEMS.register(bus);
-        Blocks.BLOCKS.register(bus);
+        ItemsRegist.ITEMS.register(bus);
+        BlocksRegist.BLOCKS.register(bus);
     }
 }

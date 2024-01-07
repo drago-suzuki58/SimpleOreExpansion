@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Block;
 public class Tags {
     public static class Blocks {
         //以下にタグを追加
-
+        public static final TagKey<Block> NEED_OBSIDIAN_TOOL = tag("needs_obsidian_TOOL");
 
         private static TagKey<Block> tag (String name) {
             return BlockTags.create(new ResourceLocation("simpleoreexpansion", name));

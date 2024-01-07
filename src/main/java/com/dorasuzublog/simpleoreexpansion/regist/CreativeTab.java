@@ -1,7 +1,8 @@
 package com.dorasuzublog.simpleoreexpansion.regist;
 
-import com.dorasuzublog.simpleoreexpansion.regist.Blocks.Blocks;
-import com.dorasuzublog.simpleoreexpansion.regist.Items.Items;
+import com.dorasuzublog.simpleoreexpansion.regist.Blocks.BlocksRegist;
+
+import com.dorasuzublog.simpleoreexpansion.regist.Items.ItemsRegist;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -16,12 +17,12 @@ public class CreativeTab {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ORE_TAB = CREATIVE_MODE_TABS.register("example_tab",()->CreativeModeTab.builder()
         .title(Component.translatable("itemGroup.ExpansionOres"))
-        .icon(() -> new ItemStack(Items.EXAMPLE_ITEM.get()))
+        .icon(() -> new ItemStack(ItemsRegist.EXAMPLE_ITEM.get()))
 
         // アイテム一覧
         .displayItems((params, output) -> {
-            output.accept(Items.EXAMPLE_ITEM.get());
-            output.accept(Blocks.EXAMPLE_BLOCK.get());
+            output.accept(ItemsRegist.EXAMPLE_ITEM.get());
+            output.accept(BlocksRegist.EXAMPLE_BLOCK.get());
             
         })
         .build()
