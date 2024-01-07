@@ -1,8 +1,9 @@
 package com.dorasuzublog.simpleoreexpansion;
 
-import com.dorasuzublog.simpleoreexpansion.regist.Items;
-import com.dorasuzublog.simpleoreexpansion.regist.Blocks;
 import com.dorasuzublog.simpleoreexpansion.regist.CreativeTab;
+import com.dorasuzublog.simpleoreexpansion.regist.Blocks.Blocks;
+import com.dorasuzublog.simpleoreexpansion.regist.Items.Items;
+
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;

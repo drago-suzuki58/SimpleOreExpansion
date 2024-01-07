@@ -1,4 +1,4 @@
-package com.dorasuzublog.simpleoreexpansion.regist;
+package com.dorasuzublog.simpleoreexpansion.regist.Blocks;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;

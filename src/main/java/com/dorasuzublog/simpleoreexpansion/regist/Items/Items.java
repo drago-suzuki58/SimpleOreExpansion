@@ -1,4 +1,4 @@
-package com.dorasuzublog.simpleoreexpansion.regist;
+package com.dorasuzublog.simpleoreexpansion.regist.Items;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
