@@ -8,7 +8,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 
 // アイテムの登録
-public class Items {
+public class ItemsRegist {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems("simpleoreexpansion");
 
