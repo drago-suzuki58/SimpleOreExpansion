@@ -1,5 +1,6 @@
 package com.dorasuzublog.simpleoreexpansion.regist.Items;
 
+import com.dorasuzublog.simpleoreexpansion.regist.Material;
 import com.dorasuzublog.simpleoreexpansion.regist.Tier;
 
 import net.minecraft.world.item.ArmorItem;
@@ -31,7 +32,7 @@ public class ItemsRegist {
     //以下にアイテムを追加
 
     public static final DeferredItem<AxeItem> ALUMINUM_AXE = ITEMS.register("aluminum_axe", () -> new AxeItem( Tier.ALUMINUM, 6.0F, -3.1f, new Item.Properties()));
-//    public static final DeferredItem<ArmorItem> ALUMINUM_CHESTPLATE = ITEMS.register("aluminum_chestplate",() -> new ArmorItem(null, ArmorItem.Type.CHESTPLATE, null));
+//    public static final DeferredItem<ArmorItem> ALUMINUM_CHESTPLATE = ITEMS.register("aluminum_chestplate",() -> new ArmorItem(Material.ALUMINUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 //    public static final DeferredItem<ArmorItem> ALUMINUM_HELMET = ITEMS.register("aluminum_helmet",() -> new ArmorItem(null, ArmorItem.Type.HELMET, null));
     public static final DeferredItem<HoeItem> ALUMINUM_HOE = ITEMS.register("aluminum_hoe",() -> new HoeItem(Tier.ALUMINUM, -3, 0.0F, new Item.Properties()));
 //    public static final DeferredItem<HorseArmorItem> ALUMINUM_HORSE_ARMOR = ITEMS.register("aluminum_horse_armor",() -> new HorseArmorItem(0, (String) null, null));
